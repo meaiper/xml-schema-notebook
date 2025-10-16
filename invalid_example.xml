@@ -1,0 +1,58 @@
+
+<notebook>
+    <offices>
+        <office code="OFF1">Главный офис</office>
+        <office code="OFF2">Филиал 1</office>
+    </offices>
+    
+    <person id="1" office="OFF1">
+        <name>
+            <first>Иван</first>
+            <surname>Петров</surname>
+        </name>
+        <address>
+            <city>Москва</city>
+            <street>Ленина</street>
+            <index>12345</index>  
+        </address>
+        <phones>
+            <phone type="work">123-45-67</phone>
+            <phone type="mobile">987-65-43</phone> 
+        </phones>
+    </person>
+    
+    <person id="2" office="OFF3">  
+        <name>
+            <first>Мария</first>
+            
+        </name>
+        <address>
+            <street>Пушкина</street>
+            <index>1234567</index>  
+           
+        </address>
+        <phones>
+            <phone>1234-56-78</phone>  
+        </phones>
+    </person>
+    
+    <person id="1" office="OFF1">  
+        <name>
+            <first>Анна</first>
+            <surname>Сидорова</surname>
+        </name>
+        <address>
+            <city>СПб</city>
+            <street>Невский</street>
+            <index>abcdef</index>  
+        </address>
+        <phones>
+            <phone type="work">111-22-33</phone>
+        </phones>
+    </person>
+    
+    
+    <offices>
+        <office code="OFF1">Дубликат офиса</office>  
+    </offices>
+</notebook>
